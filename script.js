@@ -27,20 +27,23 @@
     const body = document.querySelector('body');
   
     if (weatherCondition.includes('Cloud')) {
-      body.style.backgroundImage = "url('images/cloudy.jpg')";
+      body.style.backgroundImage = "url('asserts/cloudy.jpg')";
     } else if (weatherCondition.includes('Sun')) {
-      body.style.backgroundImage = "url('images/sunny.jpg')";
+      body.style.backgroundImage = "url('asserts/sunny.jpg')";
     } else if (weatherCondition.includes('Rain')) {
-      body.style.backgroundImage = "url('images/rainy.jpg')";
+      body.style.backgroundImage = "url('asserts/rainy.jpg')";
     } else if (weatherCondition.includes('Fog')) {
-      body.style.backgroundImage = "url('images/foggy.jpg')";
+      body.style.backgroundImage = "url('asserts/foggy.jpg')";
     } else if (weatherCondition.includes('Clear')) {
-      body.style.backgroundImage = "url('images/clear.jpg')";
+      body.style.backgroundImage = "url('asserts/clear.jpg')";
     } else if (weatherCondition.includes('Haze')) {
-      body.style.backgroundImage = "url('images/haze.jpg')";
+      body.style.backgroundImage = "url('asserts/haze.jpg')";
     } else {
-      body.style.backgroundImage = "url('images/default.jpg')";
+      body.style.backgroundImage = "url('asserts/default.jpg')";
     }
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center';
   }
   
   function getDate() {
