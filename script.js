@@ -33,11 +33,23 @@
     } else if (weatherCondition.includes('Rain')) {
       body.style.backgroundImage = "url('asserts/rainy.jpg')";
     } else if (weatherCondition.includes('Fog')) {
-      body.style.backgroundImage = "url('asserts/foggy.jpg')";
+      body.style.backgroundImage = "url('asserts/Fog.jpg')";
     } else if (weatherCondition.includes('Clear')) {
-      body.style.backgroundImage = "url('asserts/clear.jpg')";
+      body.style.backgroundImage = "url('asserts/Clear.jpg')";
     } else if (weatherCondition.includes('Haze')) {
-      body.style.backgroundImage = "url('asserts/haze.jpg')";
+      body.style.backgroundImage = "url('asserts/Haze.jpg')";
+    } else if (weatherCondition.includes('Humid')) {
+      body.style.backgroundImage = "url('asserts/Humid.jpg')";
+    } else if (weatherCondition.includes('Mist')) {
+      body.style.backgroundImage = "url('asserts/Mist.jpg')";
+    } else if (weatherCondition.includes('Hot')) {
+      body.style.backgroundImage = "url('asserts/Hot.jpg')";
+    } else if (weatherCondition.includes('Snow')) {
+      body.style.backgroundImage = "url('asserts/Snow.jpg')";
+    } else if (weatherCondition.includes('Windy')) {
+      body.style.backgroundImage = "url('asserts/Windy.jpg')";
+    } else if (weatherCondition.includes('Cold')) {
+      body.style.backgroundImage = "url('asserts/Cold.jpg')";
     } else {
       body.style.backgroundImage = "url('asserts/default.jpg')";
     }
